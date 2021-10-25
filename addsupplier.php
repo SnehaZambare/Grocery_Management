@@ -7,6 +7,7 @@
         <h1><span>Supplier Details:</span></h1>
 		<div id="contentbox">
         <div id="data"><a style="text-decoration:none" href="viewlist.php?list=supplier">Supplier List</a><br /><br />
+		<div id="flex">
        		<?php 
 			if(isset($_GET['success'])){
 				$result=mysqli_query($connect,"INSERT INTO supplier VALUES('{$_POST['dealer']}','{$_POST['email']}',NULL,'{$_POST['address']}','{$_POST['name']}',{$_POST['phone']})");
@@ -25,6 +26,7 @@
 					  </table></form>";
 			} 
 			?>
+        </div>
         </div>
         </div>
     </div>

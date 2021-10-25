@@ -8,6 +8,7 @@
 		<div id="contentbox">
         <div id="data">
 			<a style="text-decoration:none" href="viewlist.php?list=dept">Department List</a><br /><br />
+			<div id="flex">
         <?php 
 			if(isset($_GET['success'])){
 				$result=mysqli_query($connect,"INSERT INTO department VALUES('{$_POST['mid']}',NULL,'{$_POST['dname']}','{$_POST['doj']}')");
@@ -31,6 +32,7 @@
 					  </table></form>";
 			} 
 			?>
+        </div>
         </div>
         </div>
     </div>

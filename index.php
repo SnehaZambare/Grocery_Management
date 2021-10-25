@@ -7,6 +7,7 @@
       <h1><span> Hello<?php echo" ".ucfirst($_SESSION['username']) ?></span></h1>
         <div id="contentbox">
             <div id="data">Stats:<br />
+			<div id="flex">
             <?php
 			$query = "select sum(total_amount),sum(profit) from buy";
 			$moneylist=mysqli_query($connect,$query);
@@ -18,6 +19,7 @@
 					
 					Overall Profits: Rs. {$moneylist['sum(profit)']}<br /><br />";
 			?>
+            </div>
             </div>
         </div>
     </div>

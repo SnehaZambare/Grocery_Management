@@ -7,6 +7,7 @@
     	<h1><span>Add Promo:</span></h1>
 		<div id="contentbox">
         <div id="data">To view list of promos <a style="text-decoration:none" href="viewlist.php?list=promo">Click Here</a><br /><br />
+		<div id="flex">
         <?php 
 			if(isset($_GET['success'])){
 				$date = date($_POST['valid']);
@@ -25,6 +26,7 @@
 					  </table></form>";	
 			}
 		?>
+         </div>
          </div>
          </div>
     </div>

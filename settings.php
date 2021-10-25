@@ -6,7 +6,9 @@
 	<?php include_once("include/left_content.php") ?>
     <div class="rcontent">
     	<h1><span>Settings:</span></h1>
-        <div id='contentbox'><div id="data">
+        <div id='contentbox'>
+			<div id="data">
+			<div id="flex1">
         <?php
 			//perform query
 			$emp = mysqli_query($connect,"SELECT * FROM login
@@ -86,6 +88,7 @@
 				}
 			}
 		?>
+        </div>
         </div>
         </div>
     </div>

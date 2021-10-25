@@ -8,12 +8,25 @@ table th 006b68
 html *{
 	font-family: 'Poppins', sans-serif;
 }
-
-
+.heading{
+	text-align: center;
+	padding: 50px;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.login{
+	text-align: center;
+	font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+	border: outset;
+}
 body{
+	/* background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+    background-size: 160rem 80rem; */
 	margin-left:auto;
 	margin-right:auto;
-	/* background-color: #b5b5b5; */
+	background-color: #cbf1f5;
     background-repeat: repeat, no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -40,11 +53,14 @@ a{
 h1{
 	margin:0px;
 	padding:20px;
-	font-size:42px;
+	font-size:80px;
 	color:#000;
-	text-align:left;
-	font-weight:400;
-    text-align:left;
+	text-align:center;
+	font-weight:1000;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 h1 span{
 	font-size:22px;
@@ -68,12 +84,22 @@ h1 span{
 	-webkit-box-shadow: 1px 0px 2px #000;
 	box-shadow: 1px 0px 2px #000;
 }
+.head{
+	text-align: center;
+	display: block;
+	font-size: xx-large;
+	font-weight: bold;
+    color: white;
+	padding-top: 20px;
+}
 .header a{
 	padding: 0px 10px;
 	letter-spacing: 1px;
-	color: #cacaca; /*change colors #ddd*/
+	color: black; /*change colors #ddd*/
 	display: block;
 	float: left;
+	font-size: x-large;
+	padding-right: 10px;
 }
 .header a:hover{
 	color: #0f9;/*#fff*/
@@ -88,6 +114,7 @@ h1 span{
 .lcontent{
 	position: relative;
     width:12%;
+	height: 12%;
     margin: 0px 5px;
 	float:left;
 	opacity:0.9;
@@ -124,20 +151,36 @@ h1 span{
 }
 #contentbox a{
 	color:#006b68;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 .mcontent{
-	width:100%;
+	width:30%;
 	margin-left:auto;
 	margin-right:auto;
 }
+#flex{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#flex1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 #data{
 	padding:10px;
-	display: flex;
+	/* display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     align-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 .footer{
 	position:relative;

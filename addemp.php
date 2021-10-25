@@ -8,6 +8,7 @@
 		<div id="contentbox">
         <div id="data">
 			<a style="text-decoration:none" href="viewlist.php?list=employee">Employee List</a><br /><br />
+			<div id="flex">
 	<?php
 	   if(isset($_GET['third'])&&isset($_POST['user'])){
 		   $user_result=mysqli_query($connect,"INSERT INTO login VALUES('{$_POST['user']}',md5('{$_POST['password']}'),NULL,{$_POST['admin']})");
@@ -84,6 +85,7 @@
 	   }
 		?>
        
+         </div>
          </div>
          </div>
     </div>

@@ -6,8 +6,8 @@
 <div id="body">
 	<?php include_once("include/left_content.php"); ?>
     <div class="rcontent">
-      <h1><span>Sell Status:</span></h1>
-        <div id="contentbox">
+		<div id="contentbox">
+			<h1><span>Sell Status:</span></h1>
            <?php 
 				$time = date("Y-m-d");
 				$discount=0;

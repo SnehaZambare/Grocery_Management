@@ -8,7 +8,8 @@
 		<div id="contentbox">
         <div id="data"> 
 			<a style="text-decoration:none" href="viewlist.php?list=customer">Customer List</a><br /><br />
-        <?php 
+			<div id="flex">
+			<?php 
 		if(isset($_GET['success'])){
 			
 				$result=mysqli_query($connect,"INSERT INTO customer VALUES(NULL,'{$_POST['fname']}','{$_POST['lname']}','{$_POST['cjoindate']}',{$_POST['cmoneyspent']},'{$_POST['caddress']}',{$_POST['cmoney_spent_reset']},{$_POST['cphone']})");
@@ -30,6 +31,8 @@
 					</table></form>";
 			}
         ?>
+			</div>
+        
 			</div>
         </div>
     </div>

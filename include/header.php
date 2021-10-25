@@ -22,7 +22,8 @@ session_start();
 <body>
 <div class="container">
             <div class="header">
-            <a href='index.php'><img src="images/logo.png" width="80" height="80" alt='Logo' /></a>
+            <!-- <a href='index.php'><img src="images/logo.png" width="80" height="80" alt='Logo' /></a> -->
+            <strong class="head">Supermarket Management<br></strong>
                 <span class="right">
                     <?php if(isset($_SESSION['username']))
 						echo "<a href='logout.php'>Logout</a>";

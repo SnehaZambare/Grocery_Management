@@ -41,13 +41,13 @@ session_start();
 <div class="container">
 
 <div id="body">
-	<div align="center">
+	<div class="heading">
     <!-- <a href='index.php'><img src="images/logo.png" width="95" height="95" alt='Logo' /></a> -->
 	<strong>Supermarket Management<br></strong>
 	  <?php include_once("include/left_content.php"); ?>
     </div>
 	<div class="mcontent">
-    <div align="center">
+    <div class="login">
         <strong>Login<br></strong>
         <div id="data">
           <div align="center">

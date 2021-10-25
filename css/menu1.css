@@ -14,8 +14,9 @@ html *{
     position: relative;
 }
 .bmenu li{
-    font-size: 15px;
+    font-size: 20px;
     display: block;
+	block-size: 50px;
 }
 .bmenu li a{
 	display: block;
@@ -34,8 +35,8 @@ html *{
 	transition: all 0.2s linear;
 }
 .bmenu:hover li a{
-	text-shadow: 0px 0px 10px #0F9;
-	color: ;
+	text-shadow: 0px 0px 10px ;
+	color: #0F9;
 	background: rgba(0,0,0,0.9);
 }
 .bmenu li a:hover{
